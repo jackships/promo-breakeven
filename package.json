@@ -1,0 +1,21 @@
+{
+  "name": "promo-breakeven",
+  "version": "1.0.0",
+  "description": "Dependency-free math for discounts and ads: contribution margin, break-even ROAS/CPA, max discount, volume lift, bundles and BOGO.",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": { "types": "./src/index.d.ts", "default": "./src/index.js" }
+  },
+  "files": ["src"],
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test",
+    "example": "node examples/cli.js"
+  },
+  "keywords": ["ecommerce", "break-even", "roas", "discount", "contribution-margin", "pricing"],
+  "author": "Jack Ships",
+  "license": "MIT"
+}
