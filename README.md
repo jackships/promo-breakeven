@@ -9,6 +9,8 @@ Small, dependency-free JavaScript functions for the numbers you need before runn
 - **bundles** and **buy X get Y** (BOGO) margins
 - **payment fee** helpers: fee on an amount, and the price that nets a given amount
 
+Don't want to write code? The same "extra sales needed" math (plus how many visitors a test needs to prove it) runs in the browser at the [discount break-even calculator](https://evenline.app/discount-break-even-calculator).
+
 Pure functions, no I/O, ESM with TypeScript types. Node 18+ or any modern browser. Every formula is below with a worked example, and the tests cover the edge cases (zero and negative margins, 0 % and 100 % discounts, refund-heavy products).
 
 ```sh
